@@ -27,3 +27,4 @@ fp-info-cache
 # JLCPCB Plugin outputs
 /production/
 /jlcpcb/
+fabrication-toolkit-options.json
