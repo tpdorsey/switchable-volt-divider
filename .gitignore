@@ -1,0 +1,29 @@
+# General ignore
+.DS_Store
+
+# KiCad Backup files
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+/*backups/
+
+# KiCad Generated files
+*.erc
+*.drc
+*.net
+*.xml
+*-cache.lib
+*-rescue.lib
+*.lck
+fp-info-cache
+
+# Output directories
+/plots/
+/gerbers/
+/bom/
+
+# JLCPCB Plugin outputs
+/production/
+/jlcpcb/
