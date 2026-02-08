@@ -1,12 +1,10 @@
-# Switchable Voltage Divider Box — Circuit Overview and Build Guide
+# Switchable Voltage Divider PCB — Circuit Overview and Build Guide
 
 This PCB implements a **switchable resistive voltage divider** intended to derive accurate, repeatable fractions of a stable DC reference (nominally 10 V). Each divider tap produces a fixed ratio of the input voltage, selectable via a 1-pole, 5-position rotary switch. 
 
 The design is optimized for trimming resistance values to achieve (relatively) precise divider values.
 
 ![Hand-assembled blue PCB voltage divider board with five selectable divider networks. The board shows multiple precision metal film resistors, blue Bourns 3362 trim potentiometers, and a single film capacitor, arranged around labeled divider sections. Three wires exit the right side for input, output, and ground. The layout is clean and symmetric, intended for a switchable precision voltage divider.](docs/front.png)
-
-![Rear side of a blue PCB voltage divider board with five selectable divider networks. The board shows the position of the 1-pole 5-position selector switch.](docs/back.png)
 
 ## Circuit Description
 
@@ -128,3 +126,7 @@ The PCB is also designed to fit within a standard 125B aluminum enclosure with r
 * A metal enclosure significantly improves short-term stability and repeatability.
 
 This design is intentionally simple, adjustable, and reproducible.
+
+## License
+
+<a href="https://github.com/tpdorsey/switchable-volt-divider">Switchable Voltage Divider PCB</a> © 2026 by <a href="https://tpdorsey.com/">Terrence Dorsey</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
