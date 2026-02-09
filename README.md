@@ -56,13 +56,6 @@ Solve for the shunt resistor:
 Rbottom = (k / (1 - k)) * Rtop
 ```
 
-This PCB assumes:
-
-```
-Rtop = 100,000 ohms
-```
-
----
 
 ### Example Divider Values 
 
@@ -73,7 +66,7 @@ Exact values matter. Let's say Rtop = 100,468 Ω.
 | 0.5               | 5.0 V          | 100,468 Ω          |
 | 0.3               | 3.0 V          | 43,058 Ω        |
 | 0.2               | 2.0 V          | 25,120 Ω        |
-| 0.1               | 1.0 V          | 11,1163 Ω        |
+| 0.1               | 1.0 V          | 11,163 Ω        |
 | 0.01              | 0.1 V          | 1,015 Ω         |
 
 In practice, these are realized using nearby standard values plus the trim pot to dial in the exact ratio.
